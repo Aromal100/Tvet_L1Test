@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-11T11:16:10 IST" name="Default suite" finished-at="2025-01-11T11:17:18 IST" duration-ms="67569">
+    <groups>
+    </groups>
+    <test started-at="2025-01-11T11:16:10 IST" name="Default test" finished-at="2025-01-11T11:17:18 IST" duration-ms="67569">
+      <class name="testCases.Test_CollegeL1LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Test_CollegeL1LoginTest@702657cc]" started-at="2025-01-11T11:16:10 IST" name="setup" finished-at="2025-01-11T11:16:31 IST" duration-ms="20704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="collgeLoginTest()[pri:0, instance:testCases.Test_CollegeL1LoginTest@702657cc]" started-at="2025-01-11T11:16:31 IST" name="collgeLoginTest" finished-at="2025-01-11T11:17:18 IST" duration-ms="46811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collgeLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Test_CollegeL1LoginTest@702657cc]" started-at="2025-01-11T11:17:18 IST" name="teardown" finished-at="2025-01-11T11:17:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Test_CollegeL1LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
