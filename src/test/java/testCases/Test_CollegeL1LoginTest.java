@@ -72,6 +72,9 @@ public class Test_CollegeL1LoginTest extends DomainPage{
 		cc.clinicfirst();
 		cc.save4();
 		
+		boolean collegepage=cc.title();
+		Assert.assertTrue(collegepage);
+		
 	}
 
 }

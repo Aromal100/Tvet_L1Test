@@ -282,5 +282,21 @@ public class collegeCreation extends BasePage {
 	{
 		save4.click();
 	}
+	
+	@FindBy(id="ekBrandName")
+	WebElement title;
+	
+	public boolean title()
+	{
+		try
+    	{
+    		return(title.isDisplayed());
+    	}
+    	catch(Exception e)
+    	{
+    		return false;
+    	}
+		
+	}
 
 }
