@@ -10,10 +10,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import testObjects.LoginPage;
+
 public class DomainPage {
 	
 	public static WebDriver driver;
 	public Properties p;
+	
 	
 	@BeforeClass
 	public void setup() throws IOException
