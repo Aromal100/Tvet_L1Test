@@ -24,7 +24,7 @@ public class DomainPage {
 		FileReader fr=new FileReader("./src//test//resources//config.properties");
 		p=new Properties();
 		p.load(fr);
-		
+			
 		driver= new ChromeDriver();
 		driver.get(p.getProperty("url"));
 		driver.manage().window().maximize();
